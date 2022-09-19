@@ -16,9 +16,25 @@ Launch_Mail::
     Run '"C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE" /recycle'
 }
 
+; Keypirinha
+; start also with Win + O
+#o::
+{
+    Send "!o"
+}
+; Start only the windowswitcher, Win + P is not overwritable
+!p::
+{
+    Send "!o"
+    Sleep 100
+    Send "Switch To..."
+    Send "{Enter}"
+}
+
 ; US International Layout without Dead Keys
 ; Lower Case Letters
 >!a:: Send "á"
+>!b:: Send "⌀"
 >!c:: Send "©"
 >!d:: Send "ð"
 >!e:: Send "é"
