@@ -9,7 +9,7 @@ Launch_App1::
 }
 Launch_App2::
 {
-    Run "c:\Users\gsachs\Appz\Plus42\Plus42Decimal.exe"
+    Run "c:\Users\gsachs\scoop\apps\julia\current\bin\julia.exe"
 }
 Launch_Mail::
 {
